@@ -1,0 +1,8 @@
+@echo off
+python -m venv venv
+call venv\Scripts\activate
+pip install --upgrade pip
+pip install fastapi uvicorn youtube-transcript-api google-generativeai
+echo Virtual environment setup complete.
+whisper
+ffmpeg-python
